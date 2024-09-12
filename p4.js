@@ -18,5 +18,3 @@ function calculateFinalScore(input) {
   
     return finalScore >= 80;
   }
-  
-  console.log(calculateFinalScore({ name: "Rajib", testScore: 45, schoolGrade: 25, isFarmerFamily: true })); 
