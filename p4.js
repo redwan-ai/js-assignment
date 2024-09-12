@@ -19,8 +19,4 @@ function calculateFinalScore(input) {
     return finalScore >= 80;
   }
   
-  // Example usage
   console.log(calculateFinalScore({ name: "Rajib", testScore: 45, schoolGrade: 25, isFarmerFamily: true })); 
-  console.log(calculateFinalScore({ name: "Rajib", testScore: 45, schoolGrade: 25, isFarmerFamily: false })); 
-  console.log(calculateFinalScore("hello"));
-  console.log(calculateFinalScore({ name: "Rajib", testScore: 15, schoolGrade: 25, isFarmerFamily: true })); 
